@@ -78,26 +78,26 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{617DFE7F-EBB1-4C13-8F1A-3A5CA89AAFB7}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{77931424-231C-4224-B1E8-7C9F7DC050C1}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{233E7CEF-EE75-42D0-8384-C28153A2D2F9}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Grapher</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/family/Documents/grapher/application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/family/Documents/grapher build stuff/application</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{467F78A7-484B-4B1C-AB44-4B3E8CD6F499}</Property>
 				<Property Name="Bld_version.build" Type="Int">3</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Grapher.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/family/Documents/grapher/application/Grapher.exe</Property>
+				<Property Name="Bld_version.major" Type="Int">17</Property>
+				<Property Name="Bld_version.minor" Type="Int">8</Property>
+				<Property Name="Destination[0].destName" Type="Str">Grapher 2767.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/family/Documents/grapher build stuff/application/Grapher 2767.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/family/Documents/grapher/application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/family/Documents/grapher build stuff/application/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C19A5DF7-C900-4D94-B940-4A8E0B76C710}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9C0750F9-3A4A-4A4B-9ED5-4E294EF439CD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SamsGrapher.vi</Property>
@@ -110,12 +110,12 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Strykeforce</Property>
 				<Property Name="TgtF_productName" Type="Str">Grapher</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7EC31474-3793-49C8-ACB3-B9C0D43B79D7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Grapher.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Grapher 2767.exe</Property>
 			</Item>
-			<Item Name="Grapher Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Grapher</Property>
+			<Item Name="My Grapher Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">SamsGrapher</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{8CC733F1-6C7E-40B9-A574-E043A3D57633}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{AB069CCD-FB30-443A-B48E-B69ED393354B}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
@@ -167,31 +167,31 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Strykeforce</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/family/Documents/grapherintaller/installer</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Grapher Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{8CC733F1-6C7E-40B9-A574-E043A3D57633}</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/family/Documents/grapher build stuff/installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">My Grapher Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{AB069CCD-FB30-443A-B48E-B69ED393354B}</Property>
 				<Property Name="INST_productName" Type="Str">Grapher</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">17.8.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Strykeforce</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.strykeforce.org/</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
-				<Property Name="MSI_distID" Type="Str">{1F4FE037-FE6B-493E-AC77-1C7AE707451A}</Property>
+				<Property Name="MSI_distID" Type="Str">{4A3B1136-2645-4327-A288-6586E99073DF}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{3BFCA868-A5FA-4076-9E48-390578EC0DF1}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">We hope you enjoy this program
-  -Strykeforce team 2767</Property>
-				<Property Name="MSI_windowTitle" Type="Str">Thankyou for installing SamsGrapher</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{B8EC1AB0-468B-4AEE-9CA6-6EC1BB27E86B}</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{8CC733F1-6C7E-40B9-A574-E043A3D57633}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{8CC733F1-6C7E-40B9-A574-E043A3D57633}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Grapher.exe</Property>
+				<Property Name="Source[0].dest" Type="Str">{AB069CCD-FB30-443A-B48E-B69ED393354B}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{AB069CCD-FB30-443A-B48E-B69ED393354B}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Grapher 2767.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Grapher</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">SamsGrapher</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{7EC31474-3793-49C8-ACB3-B9C0D43B79D7}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Grapher</Property>
