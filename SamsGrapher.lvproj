@@ -85,9 +85,9 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/family/Documents/grapher build stuff/application</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{467F78A7-484B-4B1C-AB44-4B3E8CD6F499}</Property>
-				<Property Name="Bld_version.major" Type="Int">18</Property>
+				<Property Name="Bld_version.major" Type="Int">19</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Grapher 2767.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/family/Documents/grapher build stuff/application/Grapher 2767.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -97,7 +97,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/family/Documents/grapher build stuff/application/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{01F1390E-393D-44BC-84B6-3143A1FE1C0F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BB1529AA-EA51-49B5-ACAC-02A07B37D01C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SamsGrapher.vi</Property>
@@ -171,7 +171,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Grapher Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{AB069CCD-FB30-443A-B48E-B69ED393354B}</Property>
 				<Property Name="INST_productName" Type="Str">Grapher</Property>
-				<Property Name="INST_productVersion" Type="Str">18.1.1</Property>
+				<Property Name="INST_productVersion" Type="Str">19.1.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Strykeforce</Property>
